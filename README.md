@@ -1,5 +1,22 @@
 # Car Parking System via Physical Web --- FYP Demo
 
+## Super Quick Start
+install node modules
+```
+npm install
+```
+start the dev server on your local machine
+```
+npm start
+```
+open the browser, default path 
+```
+localhost:8000
+```
+
+You can ignore the bullshit belows :)
+
+
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
 You can use it to quickly bootstrap your angular webapp projects and dev environment for these
 projects.
