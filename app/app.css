@@ -1,6 +1,6 @@
 /* app css stylesheet */
 
-.menu {
+/*.menu {
   list-style: none;
   border-bottom: 0.1em solid black;
   margin-bottom: 2em;
@@ -27,4 +27,17 @@
 .menu > li:nth-child(1):before {
   content: "";
   padding: 0;
+}
+*/
+md-content.md-default-theme, md-content {
+  background-color: rgb(245, 245, 245);
+}
+
+.footer {
+  color: #fff;
+  background: #2b377b;
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;  
 }
