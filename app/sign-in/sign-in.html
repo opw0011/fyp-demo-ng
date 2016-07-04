@@ -12,30 +12,44 @@
 	      <img class="md-user-avatar" src="avatar.png">
 	    </md-card-avatar>  -->
 	    <md-card-header-text>
-	      <span class="md-title">Are you going to data studio ?</span>
+	      <span class="md-title">Sign In</span>
 	      <!-- <span class="md-subhead">Sub header</span> -->
 	    </md-card-header-text>
 	  </md-card-header>
-	  <img ng-src="http://evobicycle.com/wp-content/themes/evo/images/no-image.png" class="md-card-image" alt="image caption">
+<!-- 	  <img ng-src="http://evobicycle.com/wp-content/themes/evo/images/no-image.png" class="md-card-image" alt="image caption"> -->
 <!-- 	  <md-card-title>
 	    <md-card-title-text>
 	      <span class="md-headline">Try our beacon-powered navigation app now!</span>
 	      <span class="md-subhead">Accuracy navigation. Find your car park lot easily :)</span>
 	    </md-card-title-text>
 	  </md-card-title> -->
-	  <md-card-actions layout="row" layout-align="start center">
-	    <md-button class="md-raised md-primary" href="#!/sign-in">	 			
+	 	<md-input-container>
+      <label>Account Name</label>
+      <input type="text">
+    </md-input-container>
+	 	<md-input-container>
+      <label>Password</label>
+      <input type="password">
+    </md-input-container>
+    <md-button class="md-raised md-warn">	 			
+	    Sign In
+		</md-button>
+
+		<img ng-src="https://developers.google.com/accounts/images/sign-in-with-google.png" style="max-height:50px;">
+
+<!-- 	  <md-card-actions layout="row" layout-align="start center">
+	    <md-button class="md-raised md-primary">	 			
 		    Yes
 			</md-button>
-	    <md-button class="md-raised md-warn" href="#!/sign-in">>
+	    <md-button class="md-raised md-warn">
 	    	No
 	  	</md-button>
-<!-- 	    <md-card-icon-actions>
+ 	    <md-card-icon-actions>
 	      <md-button class="md-icon-button" aria-label="icon">
 	        <md-icon md-svg-icon="icon"></md-icon>
 	      </md-button>
-	    </md-card-icon-actions> -->
-	  </md-card-actions>
+	    </md-card-icon-actions> 
+	  </md-card-actions> -->
 <!-- 	  <md-card-content>
 	    <p>
 	     Card content
