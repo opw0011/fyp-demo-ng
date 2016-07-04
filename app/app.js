@@ -4,12 +4,12 @@
 angular.module('myApp', [
   'ngRoute',
   'ngMaterial',
-  'myApp.view1',
+  'myApp.use-app',
   'myApp.view2',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/view1'});
+  $routeProvider.otherwise({redirectTo: '/use-app'});
 }]);
