@@ -5,6 +5,7 @@ angular.module('myApp', [
   'ngRoute',
   'ngMaterial',
   'myApp.use-app',
+  'myApp.confirm-data-studio',
   'myApp.view2',
   'myApp.version'
 ]).
