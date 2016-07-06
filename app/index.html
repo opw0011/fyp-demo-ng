@@ -18,17 +18,17 @@
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
-<body layout="column">
-
-  <!-- start center = vertically on top,  horizontally center-->
-  <md-toolbar layout="row" layout-align="center center">
-    <!-- <h3>LOGO Will Be Here</h3> -->
-    <!-- <i class="fa fa-car fa-3x" aria-hidden="true"></i>     -->
-    <md-button>
-       <img class="png-icon" src="assets/images/logo.png" style="width: 42px; height: 42px;">
-    </md-button>
-  </md-toolbar>
-
+<body layout="column" layout-fill>
+  <header>
+    <!-- start center = vertically on top,  horizontally center-->
+    <md-toolbar layout="row" layout-align="center center">
+      <!-- <h3>LOGO Will Be Here</h3> -->
+      <!-- <i class="fa fa-car fa-3x" aria-hidden="true"></i>     -->
+      <md-button>
+        <img class="png-icon" src="assets/images/logo.png" style="width: 42px; height: 42px;">
+      </md-button>
+    </md-toolbar>
+  </header>
 <!--   <ul class="menu">
     <li><a href="#!/view1">view1</a></li>
     <li><a href="#!/view2">view2</a></li>
@@ -38,17 +38,18 @@
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
+  <main class='md-padding' layout="row" flex layout-align="center center">
+    <div ng-view></div>
+  </main>
 
-  <div ng-view></div>
-
-  <div class="footer">
+  <footer class="footer">
     <div layout="row" layout-align="center center">
       <small>
         Provided with <i class="fa fa-heart" aria-hidden="true"></i>
         by HKUST FYPers //version <span app-version></span>
       </small>      
     </div>    
-  </div>
+  </footer>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
