@@ -6,6 +6,7 @@ angular.module('myApp', [
   'ngMaterial',
   'myApp.use-app',
   'myApp.sign-in',
+  'myApp.show-nav-map',
   'myApp.confirm-data-studio',
   'myApp.view2',
   'myApp.version'
