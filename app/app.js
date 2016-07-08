@@ -10,6 +10,7 @@ angular.module('myApp', [
   'myApp.show-nav-path',
   'myApp.arrive-park-lot',
   'myApp.confirm-data-studio',
+  'myApp.show-park-info',
   'myApp.view2',
   'myApp.version'
 ]).
