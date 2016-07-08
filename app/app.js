@@ -1,4 +1,6 @@
 'use strict';
+//TODO: rename show-nav-map to select-park-lot
+//TODO: show-nav-path add one more url param (enter/exit)
 
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
@@ -6,7 +8,7 @@ angular.module('myApp', [
   'ngMaterial',
   'myApp.use-app',
   'myApp.sign-in',
-  'myApp.show-nav-map',
+  'myApp.select-park-lot',
   'myApp.show-nav-path',
   'myApp.arrive-park-lot',
   'myApp.confirm-data-studio',
