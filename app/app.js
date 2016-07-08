@@ -8,6 +8,7 @@ angular.module('myApp', [
   'myApp.sign-in',
   'myApp.show-nav-map',
   'myApp.show-nav-path',
+  'myApp.arrive-park-lot',
   'myApp.confirm-data-studio',
   'myApp.view2',
   'myApp.version'
