@@ -7,6 +7,7 @@ angular.module('myApp', [
   'myApp.use-app',
   'myApp.sign-in',
   'myApp.show-nav-map',
+  'myApp.show-nav-path',
   'myApp.confirm-data-studio',
   'myApp.view2',
   'myApp.version'
