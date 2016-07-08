@@ -10,6 +10,7 @@ angular.module('myApp', [
   'myApp.select-park-lot',
   'myApp.show-nav-path',
   'myApp.arrive-park-lot',
+  'myApp.exit-park-lot',
   'myApp.confirm-data-studio',
   'myApp.show-park-info',
   'myApp.view2',
