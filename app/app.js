@@ -1,5 +1,4 @@
 'use strict';
-//TODO: rename show-nav-map to select-park-lot
 //TODO: show-nav-path add one more url param (enter/exit)
 
 // Declare app level module which depends on views, and components
